@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "menu-mania",
+  "version": "${version}",
+  "name": "Menu Mania",
+  "description": "A mod which allows you to edit minecraft menus",
+  "authors": [
+    "Artus25200"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net",
+    "sources": "https://github.com/artus25200/MenuMania"
+  },
+  "license": "MIT",
+  "icon": "assets/menu-mania/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fr.artus25200.menu-mania.MenuMania"
+    ]
+  },
+  "mixins": [
+    "menu-mania.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "~1.21"
+  }
+}
